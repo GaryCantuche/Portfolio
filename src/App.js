@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import NavBar from './Components/NavBar/navbar';
 import Home from './pages/home/home';
+import Footer from './Components/NavBar/footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Home/>
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

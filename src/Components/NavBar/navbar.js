@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import logo from './../../images/Logo.png';
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light border border-bottom">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
             <img src={logo} className="logo" width="40" height="40" style={{borderRadius:"50%", marginRight:"1vh"}} alt="" />
             <Link to="/" className="navbar-brand"> Gary Cantuche </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

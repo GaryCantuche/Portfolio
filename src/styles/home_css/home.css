@@ -1,0 +1,47 @@
+.row-about-me{
+    height: 89vh;
+}
+
+.row-studies{
+    height: 80vh;
+}
+
+@media screen and (max-width:1200px){
+    .row-studies{
+        justify-content:center;
+    }
+}
+
+@media screen and (max-width:998px){
+
+}
+
+@media screen and (max-width:768px){
+    .row-about-me{
+        height: 150vh;
+    }
+    .row-about-me div div:nth-child(2){
+        font-size: 2vh;
+    }
+
+    .row-about-me h1{
+        font-size: 5vh !important;
+    }
+
+    .row-about-me img{
+        width: 80%;
+    }
+
+    .row-studies{
+        height: 120vh;
+    }
+    .row-studies p{
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width:576px){
+    .row-studies{
+        height: 175vh;
+    }
+}
