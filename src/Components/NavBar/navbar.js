@@ -15,7 +15,10 @@ function NavBar() {
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item active">
-                        <Link to="/projects" className="nav-link">My Projects</Link>
+                        <Link to="/projects" className="nav-link">Projects</Link>
+                    </li>
+                    <li className="nav-item active">
+                        <Link to="/lenguages" className="nav-link">Lenguages</Link>
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">

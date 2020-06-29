@@ -17,7 +17,7 @@ function AboutMe() {
                 </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 no-gutters d-flex justify-content-center align-items-center ">
-                <img className="img-fluid rounded-circle border-green" src={logo} alt="That I'm I" />
+                <img className="img-fluid rounded-circle border-green w-100 h-50" src={logo} alt="That I'm I" />
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12  p-0 w-100 d-flex align-items-center flex-column">
                 <div className="w-100 h-50 d-flex align-items-center justify-content-center">
