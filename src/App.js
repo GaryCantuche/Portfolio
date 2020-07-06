@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import NavBar from './Components/NavBar/navbar';
 import Home from './pages/home/home';
 import Footer from './Components/NavBar/footer';
+import Projects from './pages/projects/projects';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route exact path="/" >
           <Home/>
+        </Route>
+        <Route exact path="/projects" >
+          <Projects/>
         </Route>
       </Switch>
       <Footer />

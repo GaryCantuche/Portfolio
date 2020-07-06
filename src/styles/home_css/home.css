@@ -3,45 +3,47 @@
 }
 
 .row-studies{
-    height: 80vh;
+    height: 90vh;
 }
 
-@media screen and (max-width:1200px){
+
+
+@media (min-width:998px){
     .row-studies{
-        justify-content:center;
+        justify-content: center !important;
     }
 }
 
-@media screen and (max-width:998px){
+@media (min-width:768px){
+    .row-studies{
+        justify-content: space-around;
+    }
 
+    .row-studies div div p{
+        font-size: 1.8vh;
+    }
 }
 
-@media screen and (max-width:768px){
-    .row-about-me{
-        height: 150vh;
-    }
-    .row-about-me div div:nth-child(2){
-        font-size: 2vh;
-    }
-
-    .row-about-me h1{
-        font-size: 5vh !important;
-    }
-
-    .row-about-me img{
-        width: 80%;
+@media (max-width:767px){
+    .row-studies{
+        height: 175vh;
     }
 
     .row-studies{
-        height: 120vh;
-    }
-    .row-studies p{
-        font-size: 2vh;
+        justify-content: space-around;
     }
 }
 
 @media screen and (max-width:576px){
     .row-studies{
         height: 175vh;
+    }
+
+    .row-studies div div p{
+        font-size: 1.8vh;
+    }
+
+    .row-about-me div div:nth-child(2){
+        font-size: 1.5vh;
     }
 }
