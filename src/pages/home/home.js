@@ -11,7 +11,8 @@ function Home() {
             <AboutMe />
             <DecorationBar 
                 texto="What I learned?" 
-                styles={styles.decorationBar} />
+                styles={styles.decorationBar} 
+            />
             <Studies />
         </div>
     );

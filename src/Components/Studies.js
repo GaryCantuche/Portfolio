@@ -2,6 +2,7 @@ import React from 'react';
 import android from "./../images/android.png";
 import code from "./../images/code.png";
 import computer from "./../images/computer.png";
+import database from "./../images/database.png";
 import Study from './Study';
 
 function Studies (){    
@@ -25,6 +26,13 @@ function Studies (){
                 title="Desktop Apps"
                 text="I created desktop apps with Java. I created an old game named MasterMind." 
                 icon={computer} 
+                className={"col-xl-2 col-lg-3 col-md-3 col-sm-6 col-xs-6 "} 
+                link={"projects"}
+            />
+            <Study  
+                title="Database Management"
+                text="I learned sql in highschool. I know queries and simple management. " 
+                icon={database} 
                 className={"col-xl-2 col-lg-3 col-md-3 col-sm-6 col-xs-6 "} 
                 link={"projects"}
             />
